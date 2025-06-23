@@ -26,6 +26,7 @@ body{
     background: rgb(3, 3, 63);
     display: flex;
     align-items: center;
+    z-index:100;
 }
 
 .logo{
@@ -54,7 +55,6 @@ body{
 .navbar a:active{
     text-decoration:underline;
     color: aliceblue;
-    transition: 2ms;
 }
 
 #home{
@@ -65,18 +65,18 @@ body{
     padding: 60px 7% 0;
 }
 
-.home_content h3{
+#home_content h3{
     font-size: 32px;
     line-height: 2;
 }
 
-.home_content h1{
+#home_content h1{
     font-size: 56px;
     font-weight: 700;
     margin-bottom: 3px;
 }
 
-.home_content p{
+#home_content p{
     font-size: 20px;
     padding-top: 10px;
 
@@ -162,12 +162,12 @@ section {
     padding: 40px 7% 0 ;
 }
 
-.about_content h2{
+#about_content h2{
     font-size: 40px;
     line-height: 2;
 }
 
-.about_content p{
+#about_content p{
     font-size: 20px;
     padding-top: 20px;
 
@@ -181,12 +181,12 @@ section {
     padding: 40px 7% 0 20% ;
 }
 
-.skills_content h2{
+#skills_content h2{
     font-size: 40px;
     line-height: 2;
 }
 
-.skills_content li{
+#skills_content li{
     font-size: 20px;
     padding-top: 20px;
 
@@ -200,12 +200,12 @@ section {
     padding: 40px 7% 0  ;
 }
 
-.projects_content h2{
+#projects_content h2{
     font-size: 40px;
     line-height: 2;
 }
 
-.projects_content p{
+#projects_content p{
     font-size: 20px;
     padding-top: 20px;
 
@@ -219,13 +219,29 @@ section {
     padding: 40px 7% 0 ;
 }
 
-.contact_content h2{
+#contact_content h2{
     font-size: 40px;
     line-height: 2;
 }
 
-.contact_content p{
+#contact_content p{
     font-size: 20px;
     padding-top: 20px;
 
+}
+.content{
+    animation: appear 5s linear;
+    animation-timeline: view();
+    animation-range: 0% cover 40%;
+}
+
+@keyframes appear{
+    from{
+        opacity: 0;
+        scale: 0.4;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
 }
