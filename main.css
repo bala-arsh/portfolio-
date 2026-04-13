@@ -502,12 +502,17 @@ ul {
 }
 
 .reveal {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.js-enabled .reveal {
     opacity: 0;
     transform: translateY(30px);
     transition: opacity 600ms ease, transform 600ms ease;
 }
 
-.reveal.is-visible {
+.js-enabled .reveal.is-visible {
     opacity: 1;
     transform: translateY(0);
 }
@@ -627,7 +632,7 @@ ul {
         transition-duration: 0.01ms !important;
     }
 
-    .reveal {
+    .js-enabled .reveal {
         opacity: 1;
         transform: none;
     }

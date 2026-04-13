@@ -1,3 +1,5 @@
+document.documentElement.classList.add("js-enabled");
+
 const navToggle = document.querySelector(".nav-toggle");
 const siteNav = document.querySelector(".site-nav");
 const navLinks = document.querySelectorAll(".site-nav a");
