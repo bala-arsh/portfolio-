@@ -1,0 +1,147 @@
+@media (max-width: 760px) {
+    body {
+        line-height: 1.6;
+    }
+
+    .nav-shell {
+        min-height: 72px;
+    }
+
+    .brand {
+        font-size: 1rem;
+    }
+
+    .hero {
+        padding-top: 24px;
+    }
+
+    .hero-grid {
+        gap: 32px;
+    }
+
+    .hero-copy,
+    .hero-cta {
+        text-align: left;
+    }
+
+    .hero h1 {
+        font-size: clamp(2.2rem, 10vw, 3.4rem);
+        max-width: none;
+    }
+
+    .hero-text {
+        font-size: 0.98rem;
+    }
+
+    .eyebrow,
+    .section-label {
+        font-size: 0.78rem;
+        letter-spacing: 0.1em;
+    }
+
+    .section-heading {
+        margin-bottom: 32px;
+    }
+
+    .section-heading h2 {
+        font-size: clamp(1.7rem, 7vw, 2.3rem);
+    }
+
+    .portrait-frame {
+        border-radius: 28px;
+        max-width: 320px;
+        padding: 12px;
+    }
+
+    .portrait-frame img {
+        border-radius: 20px;
+    }
+
+    .social-links {
+        justify-content: center;
+    }
+
+    .about-panel,
+    .skill-card,
+    .project-card,
+    .contact-card {
+        border-radius: 18px;
+    }
+
+    .project-card h3,
+    .skill-card h3,
+    .contact-card h3 {
+        font-size: 1.05rem;
+    }
+
+    .project-tag,
+    .project-number {
+        font-size: 0.75rem;
+    }
+
+    .project-actions .button,
+    .hero-actions .button {
+        min-height: 46px;
+    }
+
+    .contact-list li {
+        padding-bottom: 12px;
+    }
+
+    .footer-shell {
+        font-size: 0.88rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 16px;
+    }
+
+    .section {
+        padding: 72px 0;
+    }
+
+    .site-nav {
+        border-radius: 20px;
+        padding: 80px 20px 20px;
+        right: 16px;
+        width: calc(100vw - 32px);
+    }
+
+    .hero-grid {
+        gap: 24px;
+    }
+
+    .hero-text,
+    .about-panel p,
+    .project-card p,
+    .contact-card p,
+    .skill-card li,
+    .project-points li,
+    .contact-list a {
+        font-size: 0.95rem;
+    }
+
+    .hero-actions,
+    .project-actions {
+        margin-top: 24px;
+    }
+
+    .social-links {
+        margin-top: 24px;
+    }
+
+    .social-links a {
+        height: 44px;
+        width: 44px;
+    }
+
+    .project-card,
+    .skill-card,
+    .contact-card,
+    .about-panel {
+        padding: 20px;
+    }
+}

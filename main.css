@@ -161,8 +161,15 @@ ul {
     align-items: center;
     display: grid;
     gap: var(--space-5);
+    grid-template-areas:
+        "copy visual"
+        "cta visual";
     grid-template-columns: 1.2fr 0.8fr;
     min-height: calc(100vh - 80px);
+}
+
+.hero-copy {
+    grid-area: copy;
 }
 
 .eyebrow,
@@ -276,7 +283,12 @@ ul {
 
 .hero-visual {
     display: flex;
+    grid-area: visual;
     justify-content: center;
+}
+
+.hero-cta {
+    grid-area: cta;
 }
 
 .portrait-frame {
@@ -508,20 +520,19 @@ ul {
         grid-template-columns: 1fr;
     }
 
+    .hero-grid {
+        grid-template-areas:
+            "copy"
+            "visual"
+            "cta";
+    }
+
     .hero {
         padding-top: 40px;
     }
 
     .hero-grid {
         min-height: auto;
-    }
-
-    .hero-copy {
-        order: 2;
-    }
-
-    .hero-visual {
-        order: 1;
     }
 
     .portrait-frame {
