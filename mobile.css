@@ -4,7 +4,7 @@
     }
 
     .nav-shell {
-        min-height: 72px;
+        min-height: 74px;
     }
 
     .brand {
@@ -12,66 +12,86 @@
     }
 
     .hero {
-        padding-top: 24px;
+        padding-top: 28px;
     }
 
     .hero-grid {
-        gap: 32px;
-    }
-
-    .hero-copy,
-    .hero-cta {
-        text-align: left;
+        gap: 28px;
     }
 
     .hero h1 {
-        font-size: clamp(2.2rem, 10vw, 3.4rem);
+        font-size: clamp(2.5rem, 12vw, 3.8rem);
         max-width: none;
     }
 
     .hero-text {
-        font-size: 0.98rem;
+        font-size: 1rem;
     }
 
     .eyebrow,
-    .section-label {
-        font-size: 0.78rem;
-        letter-spacing: 0.1em;
+    .section-label,
+    .strip-label {
+        font-size: 0.76rem;
+        letter-spacing: 0.14em;
     }
 
     .section-heading {
         margin-bottom: 32px;
     }
 
-    .section-heading h2 {
-        font-size: clamp(1.7rem, 7vw, 2.3rem);
+    .section-heading h2,
+    .contact-banner h2 {
+        font-size: clamp(1.95rem, 8vw, 2.7rem);
     }
 
     .portrait-frame {
         border-radius: 28px;
-        max-width: 320px;
-        padding: 12px;
+        max-width: 340px;
+        padding: 14px;
     }
 
     .portrait-frame img {
-        border-radius: 20px;
+        border-radius: 22px;
+    }
+
+    .portrait-badge {
+        bottom: 20px;
+        left: 20px;
+        font-size: 0.82rem;
+        padding: 10px 14px;
+    }
+
+    .highlight-strip,
+    .about-panel,
+    .info-card,
+    .skill-card,
+    .project-card,
+    .contact-card,
+    .contact-banner,
+    .metric-card {
+        border-radius: 22px;
+    }
+
+    .highlight-strip,
+    .about-panel,
+    .info-card,
+    .skill-card,
+    .project-card,
+    .contact-card,
+    .contact-banner,
+    .metric-card {
+        padding: 22px;
     }
 
     .social-links {
         justify-content: center;
     }
 
-    .about-panel,
-    .skill-card,
-    .project-card,
-    .contact-card {
-        border-radius: 18px;
-    }
-
     .project-card h3,
     .skill-card h3,
-    .contact-card h3 {
-        font-size: 1.05rem;
+    .contact-card h3,
+    .info-card h3 {
+        font-size: 1.12rem;
     }
 
     .project-tag,
@@ -80,12 +100,9 @@
     }
 
     .project-actions .button,
-    .hero-actions .button {
-        min-height: 46px;
-    }
-
-    .contact-list li {
-        padding-bottom: 12px;
+    .hero-actions .button,
+    .contact-actions .button {
+        min-height: 48px;
     }
 
     .footer-shell {
@@ -115,20 +132,20 @@
     }
 
     .hero-text,
+    .highlight-strip p,
     .about-panel p,
+    .info-card p,
     .project-card p,
+    .project-story p,
     .contact-card p,
-    .skill-card li,
-    .project-points li,
-    .contact-list a {
+    .contact-list li,
+    .skill-card li {
         font-size: 0.95rem;
     }
 
     .hero-actions,
-    .project-actions {
-        margin-top: 24px;
-    }
-
+    .project-actions,
+    .contact-actions,
     .social-links {
         margin-top: 24px;
     }
@@ -138,10 +155,21 @@
         width: 44px;
     }
 
-    .project-card,
+    .highlight-strip,
+    .about-panel,
+    .info-card,
     .skill-card,
+    .project-card,
     .contact-card,
-    .about-panel {
+    .contact-banner,
+    .metric-card {
         padding: 20px;
+    }
+
+    .portrait-badge {
+        bottom: 16px;
+        left: 16px;
+        right: 16px;
+        justify-content: center;
     }
 }
