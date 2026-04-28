@@ -1,14 +1,14 @@
-# Balavignesh | Frontend Developer Portfolio
+# Balavignesh | Full Stack Developer Portfolio
 
-A responsive frontend developer portfolio built to present my React, JavaScript, API integration, and UI development work with clear project storytelling.
+A responsive full stack developer portfolio built to present my React, Django, Python, JavaScript, API integration, and UI development work with clear project storytelling.
 
 ## Live Portfolio
 
-[View the portfolio](https://bala-arsh.github.io/portfolio-/)
+[View the portfolio](https://portfolio-flame-eight-52.vercel.app/)
 
 ## About
 
-This portfolio showcases my work as a frontend developer focused on clean interfaces, responsive layouts, user-friendly experiences, and production-style project presentation. It highlights frontend projects such as an ecommerce UI, a GitHub Profile Viewer powered by the GitHub REST API, and this personal portfolio website.
+This portfolio showcases my work as a full stack developer focused on clean interfaces, responsive layouts, user-friendly experiences, backend awareness, and production-style project presentation. It highlights projects such as an ecommerce UI, a GitHub Profile Viewer powered by the GitHub REST API, and this personal portfolio website.
 
 ## Featured Projects
 
@@ -33,6 +33,8 @@ A React and Redux Toolkit application that lets users search GitHub profiles and
 - JavaScript
 - React.js
 - Redux Toolkit
+- Python
+- Django
 - GitHub REST API
 - Responsive Web Design
 - Git and GitHub
@@ -54,24 +56,24 @@ This portfolio includes search-friendly metadata and crawler support:
 
 ```text
 portfolio-/
-├── index.html
-├── main.css
-├── mobile.css
-├── main.js
-├── favicon.svg
-├── profile_pic.jpg
-├── robots.txt
-├── sitemap.xml
-└── Bala resume.pdf
+|-- index.html
+|-- main.css
+|-- mobile.css
+|-- main.js
+|-- favicon.svg
+|-- profile_pic.jpg
+|-- robots.txt
+|-- sitemap.xml
+`-- Bala resume.pdf
 ```
 
 ## Contact
 
-- Portfolio: [bala-arsh.github.io/portfolio-](https://bala-arsh.github.io/portfolio-/)
+- Portfolio: [portfolio-flame-eight-52.vercel.app](https://portfolio-flame-eight-52.vercel.app/)
 - GitHub: [github.com/bala-arsh](https://github.com/bala-arsh)
 - LinkedIn: [linkedin.com/in/balak7](https://www.linkedin.com/in/balak7)
 - Email: [balavignesh9642@gmail.com](mailto:balavignesh9642@gmail.com)
 
 ## Keywords
 
-Frontend developer portfolio, React developer portfolio, JavaScript developer, responsive web design, UI developer, web developer portfolio, React projects, GitHub API project, ecommerce frontend project.
+Full stack developer portfolio, React developer portfolio, Python developer, Django developer, JavaScript developer, responsive web design, UI developer, web developer portfolio, React projects, GitHub API project, ecommerce frontend project.
