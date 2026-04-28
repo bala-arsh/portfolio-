@@ -59,6 +59,20 @@ a {
     text-decoration: none;
 }
 
+.text-link {
+    color: var(--accent-strong);
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+    transition: color 180ms ease;
+}
+
+.text-link:hover,
+.text-link:focus-visible {
+    color: var(--text);
+}
+
 button {
     border: 0;
     font: inherit;

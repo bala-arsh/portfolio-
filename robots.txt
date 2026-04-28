@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bala-arsh.github.io/portfolio-/sitemap.xml
