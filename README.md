@@ -52,6 +52,33 @@ This portfolio includes search-friendly metadata and crawler support:
 - `sitemap.xml`
 - Custom `BV` favicon
 
+## Backlink Plan
+
+Use the live portfolio URL when creating backlinks:
+
+```text
+https://portfolio-flame-eight-52.vercel.app/
+```
+
+Good first backlinks for a developer portfolio:
+
+- Add the portfolio link to your GitHub profile bio and pinned repository descriptions.
+- Add the link to your LinkedIn profile website field and About section.
+- Add the link to every project repository README, especially Minimart and GitHub Profile Viewer.
+- Add the portfolio URL to your email signature, resume PDF, and job portal profiles.
+- Share project posts on LinkedIn with links to the live portfolio and matching project demos.
+- Add the portfolio link to developer profiles such as Hashnode, Dev.to, CodePen, Stack Overflow, Kaggle, or Peerlist if you use them.
+- Ask friends, classmates, clients, or collaborators to link to your portfolio only when it is naturally relevant.
+
+Recommended anchor text examples:
+
+- `Balavignesh portfolio`
+- `Balavignesh full stack developer`
+- `React developer portfolio by Balavignesh`
+- `Balavignesh frontend projects`
+
+Avoid spammy backlink tactics like paid bulk links, random comment links, private blog networks, or repeated exact-match anchor text. A few real links from GitHub, LinkedIn, project pages, and genuine articles are much better for Google.
+
 ## Project Structure
 
 ```text
